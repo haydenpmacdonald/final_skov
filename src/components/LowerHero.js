@@ -1,6 +1,7 @@
 
 import React from 'react';
 import '../styles/LowerHero.css';
+import { Link } from 'react-router-dom';
 
 const LowerHero = () => {
     return (
@@ -12,6 +13,9 @@ const LowerHero = () => {
                     Chris has visions to see the world with his music, to inspire, create, help and support people, 
                     as well as help artists find a voice in the same way he is.
                 </p>
+                <Link to='/contact'>
+                    <button className='contact--chris'>CONTACT CHRIS</button>
+                </Link>
             </div>
         </div>
     )
