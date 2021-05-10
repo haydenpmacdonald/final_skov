@@ -1,0 +1,61 @@
+.albumcovers--container {
+    background-color: rgb(27, 31, 33);
+    color: grey;
+    text-align: center;
+}
+
+.album--card {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-width: 1px;
+}
+
+.card--body {
+    background-color: rgb(27, 31, 33);
+    color: white;
+}
+
+.albumcover--hero {
+    background-image: url('https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+      color: black;
+      min-height: 300px;
+      height: 100vh;
+      max-height: 400px;
+      max-width: 2000px;
+      width: 100%;
+      background-size: cover;
+}
+
+.albumcover--hero--overlay {
+    background: rgba(0, 0, 0, 0.808);
+      color: white;
+      max-width: 2000px;
+      width: 100%;
+      height: 100vh;
+      max-height: 400px;
+      padding-top: 10%;
+}
+
+.albumcover--button {
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    background-color: transparent;
+    color: red;
+    border-radius: 05px;
+}
+
+@media screen and (max-width: 900px) {
+    .album--card {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .albumcover--hero--overlay {
+        padding-top: 50%;
+    }
+}

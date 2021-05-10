@@ -1,0 +1,25 @@
+.bio--container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 05%;
+    background-color: rgb(27, 31, 33);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.bio--header {
+    font-family: 'Lora', serif;
+    color: red;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.bio--inner--text--container {
+    margin: 05% 10%;
+}
+
+.bio--inner--text--h3 {
+    color: rgb(107, 107, 107);
+    padding: 30px;
+}

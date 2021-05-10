@@ -1,0 +1,74 @@
+.team--section--hero {
+    background-image: url('https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+
+    min-height: 300px;
+    height: 100vh;
+    max-height: 800px;
+    max-width: 2000px;
+    width: 100%;
+    background-size: cover;
+    
+  }
+
+  .team--section--overlay {
+    background: rgba(0, 0, 0, 0.452);
+    max-width: 2000px;
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    position: absolute;
+    padding: 40px;
+  }
+  
+  .team--section--title {
+      color: red;
+      font-size: 40px;
+  }
+
+  .team--section--left {
+    /* border-style: solid;
+    border-color: white; */
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .team--section--right {
+    /* border-style: solid;
+    border-color: white; */
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.247);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 02%;
+  }
+
+
+  .team--hr {
+      background-color: white;
+  }
+
+  .team--section--job {
+      color: rgb(255, 255, 255);
+      font-family: 'Lora', serif;
+  }
+
+  a {
+      text-decoration: none;
+      color: rgb(165, 165, 165);
+  }
+
+  a:hover {
+      color: rgb(243, 46, 53);
+  }
+
+  @media screen and (max-width: 900px) {
+    .team--section--left {width: 100%; display: block; margin-top: 0px;}
+    .team--section--right {width: 100%; display: block; margin-top: 0px;}
+    .team--section--overlay {padding: 20px;}
+  }
