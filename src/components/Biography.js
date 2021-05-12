@@ -20,9 +20,7 @@ const Biography = () => {
                     with lots of instrumental layers of synth and piano to be explored as you listen to the music, over and over again.
                 </p>
             </div>
-            <div className='bio--inner--text--container'>
-                <h3 data-aos="fade-in" className='bio--inner--text--h3'>This is an alternative rock band that doesn’t want to except the norms of being a stuck in a small city.</h3>
-            </div>
+            
             <hr className='hr'></hr>
             <hr className='hr'></hr>
         </div>
