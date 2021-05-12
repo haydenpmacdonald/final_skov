@@ -9,7 +9,7 @@ const ImageSlider = () => {
             <Carousel fade>
             {slider.map(slide => (
               <Carousel.Item>
-                <img className='slider--image' src={slide.image} alt={slide.alt}></img>
+                <img className='slider--image' src={slide.img} alt={slide.alt}></img>
               </Carousel.Item>
               ))}
             </Carousel>
