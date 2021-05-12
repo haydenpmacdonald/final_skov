@@ -1,4 +1,5 @@
 const albums = [
+
     {
         title:'Supernatural (ft. Vrtue & Quinn Colpman',
         description: '',

@@ -48,7 +48,7 @@ const Navbar = () => {
                 <div className="navbar-container">
                     <ul>
                         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            skov.
+                            Skov.
                         </Link>
                     </ul>
                     <div className='menu-icon' onClick={handleClick}>

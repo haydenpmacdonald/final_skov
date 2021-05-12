@@ -9,10 +9,13 @@
 }
 
 .bio--header {
-    font-family: 'Lora', serif;
-    color: red;
+    font-family: 'Anton', sans-serif;
     padding: 20px;
-    font-size: 50px;
+    text-transform: uppercase;
+	background: linear-gradient(to right, rgb(231, 231, 231) 0%, rgb(255, 255, 255) 25%, rgb(243, 46, 53) 50%, #535353 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
 }
 
 .bio--inner--text--container {

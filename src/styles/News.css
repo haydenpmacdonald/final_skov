@@ -1,0 +1,55 @@
+.news--container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(27, 31, 33); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+h2 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.news--image {
+    height: 400px;
+    width: auto;
+    border-radius: 05px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+
+.news--button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 05px 10px;
+    margin: 20px;
+    border-radius: 05px;
+    font-size: 12px;
+}
+
+.news--button:hover {
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+
+@media screen and (max-width: 600px) {
+    .news--image {
+        width: 100%;
+    }
+}

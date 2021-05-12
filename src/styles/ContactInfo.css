@@ -1,9 +1,8 @@
 .contact--section--hero {
     background-image: url('https://images.unsplash.com/photo-1495711015780-fd46fc6b852d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
-
     color: black;
     min-height: 300px;
-    height: 100vh;
+    height: 700px;
     max-height: 800px;
     max-width: 2000px;
     width: 100%;
@@ -11,17 +10,17 @@
     
   }
 
-  .contact--section--overlay {
+  /* .contact--section--overlay {
     background: rgba(0, 0, 0, 0.726);
     color: white;
     max-width: 2000px;
     width: 100%;
-    height: 100vh;
+    height: 700px;
     max-height: 800px;
     position: absolute;
     text-align: center;
     padding: 20%;
-  }
+  } */
   
 .contact--info--container {
     background-color: rgb(243, 46, 53);

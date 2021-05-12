@@ -10,13 +10,13 @@ const ContactInfo = () => {
                 </div>
             </div>
             <div className='contact--info--container'>
-                <a className='contact--info--font' href='/'>chrisweriksen@hotmail.com<i className="fa fa-envelope" ></i></a>
+                <a className='contact--info--font' href='/'>chrisweriksen@hotmail.com</a>
                 <hr className='hr'></hr>
                 <hr className='hr'></hr>
-                <a className='contact--info--font' href="https://www.facebook.com/Skov.music/">www.facebook.com/Skov.music<i className="fa fa-facebook link"  ></i></a>
+                <a className='contact--info--font' href="https://www.facebook.com/Skov.music/">www.facebook.com/Skov.music</a>
                 <hr className='hr'></hr>
                 <hr className='hr'></hr>
-                <a className='contact--info--font' href="https://www.instagram.com/chriseriksenmusic/?hl=enef=">instagram | @chriseriksenmusic<i className="fa fa-instagram link"></i></a>
+                <a className='contact--info--font' href="https://www.instagram.com/chriseriksenmusic/?hl=enef=">instagram | @chriseriksenmusic</a>
             </div>
         </div>
     )
