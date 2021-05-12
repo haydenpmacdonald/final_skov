@@ -1,36 +1,19 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import '../styles/ImageSlider.css';
+import slider from '../slider-content'
 
 const ImageSlider = () => {
     return (
         <div className='carousel--cont'>
             <Carousel fade>
+            {slider.map(slide => (
               <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="images/header.jpeg"
-                  alt="First slide"
-                />
+                <img className='slider--image' src={slide.image} alt={slide.alt}></img>
               </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="images/header3.jpeg"
-                  alt="Second slide"
-                />
-
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="images/chrisbush.jpeg"
-                  alt="Third slide"
-                />
-
-                
-              </Carousel.Item>
+              ))}
             </Carousel>
+            
         </div>
     )
 }
