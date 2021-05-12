@@ -90,22 +90,22 @@ const Navbar = () => {
                         <h1>
                             <ul>
                                 <li className='hero--text--nav'>
-                                    <a hero--text--nav href='https://open.spotify.com/artist/5tpiMGYTziZVZL6iwrjJmk'>
+                                    <a href='https://open.spotify.com/artist/5tpiMGYTziZVZL6iwrjJmk'>
                                         <i className="fab fa-spotify"></i>
                                     </a>
                                 </li>
                                 <li className='hero--text--nav'>
-                                    <a hero--text--nav href='https://music.apple.com/ca/artist/skov/1501059364?uo=4&app=music'>
+                                    <a href='https://music.apple.com/ca/artist/skov/1501059364?uo=4&app=music'>
                                         <i className="fab fa-apple"></i>
                                     </a>
                                 </li>
                                 <li className='hero--text--nav'>
-                                    <a hero--text--nav href='https://www.facebook.com/Skov.music/'>
+                                    <a href='https://www.facebook.com/Skov.music/'>
                                         <i className="fab fa-facebook"></i>
                                     </a>                             
                                 </li>
                                 <li className='hero--text--nav'>
-                                    <a hero--text--nav href='https://www.instagram.com/chriseriksenmusic/?hl=en'>
+                                    <a href='https://www.instagram.com/chriseriksenmusic/?hl=en'>
                                         <i className="fab fa-instagram"></i>
                                     </a>                                   
                                 </li>

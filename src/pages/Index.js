@@ -12,7 +12,7 @@ const Index = () => {
             <Hero />
             <News />
             <Biography />
-            <ImageSlider /> 
+            <ImageSlider />  
             <LowerHero />
             <Footer />
         </div>

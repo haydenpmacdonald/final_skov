@@ -6,14 +6,32 @@ import slider from '../slider-content'
 const ImageSlider = () => {
     return (
         <div className='carousel--cont'>
-            <Carousel fade>
-            {slider.map(slide => (
-              <Carousel.Item>
-                <img className='slider--image' src={slide.img} alt={slide.alt}></img>
-              </Carousel.Item>
-              ))}
+            <Carousel >
+            <Carousel.Item interval={2000}>
+              <img
+                className="d-block w-100"
+                src="images/header.jpeg"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="images/header.jpeg"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item interval={2000}>
+              <img
+                className="d-block w-100"
+                src="images/header.jpeg"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+           
+  
             </Carousel>
-            
         </div>
     )
 }
