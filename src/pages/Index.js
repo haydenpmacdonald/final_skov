@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import News from '../components/News';
 import Biography from '../components/Biography';
-import Slider from '../components/Slider';
+import SectionImage from '../components/SectionImage';
 import LowerHero from '../components/LowerHero';
 import Footer from '../components/Footer';
 
@@ -12,7 +12,7 @@ const Index = () => {
             <Hero />
             <News />
             <Biography />
-            <Slider />  
+            <SectionImage /> 
             <LowerHero />
             <Footer />
         </div>
